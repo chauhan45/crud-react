@@ -33,6 +33,7 @@ const AddUser = () => {
 
     const addUserDetails = async() => {
         await addUser(user);
+        alert("success")
         history.push('./all');
     }
 

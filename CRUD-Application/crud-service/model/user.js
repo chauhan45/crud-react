@@ -12,6 +12,6 @@ const userSchema = mongoose.Schema({
 autoIncrement.initialize(mongoose.connection);
 userSchema.plugin(autoIncrement.plugin, 'user');
 // we need to turn it into a model
-const postUser = mongoose.model('user', userSchema);
+const postUser = mongoose.model('crud', userSchema);
 
 export default postUser;

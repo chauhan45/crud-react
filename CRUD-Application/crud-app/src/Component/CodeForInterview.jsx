@@ -19,10 +19,10 @@ const CodeForInterview = () => {
     const classes = useStyles();
     return (
         <Box className={classes.component}>
-            <Typography variant="h4">Code for Interview</Typography>
+            <Typography variant="h4">Home</Typography>
             <Box style={{display: 'flex'}}>
-                <img src={Youtube} className={classes.image} />
-                <img src={InstaTele} className={classes.image} />
+                {/* <img src={Youtube} className={classes.image} />
+                <img src={InstaTele} className={classes.image} /> */}
             </Box>
         </Box>
     )
